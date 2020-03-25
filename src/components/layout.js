@@ -1,7 +1,7 @@
 import React from 'react'
 import './all.sass'
 
-const TemplateWrapper = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <div>
       <div>{children}</div>
@@ -9,4 +9,4 @@ const TemplateWrapper = ({ children }) => {
   )
 }
 
-export default TemplateWrapper
+export default Layout
